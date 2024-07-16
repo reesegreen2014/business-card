@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 0px;
+    background-color: gray;
+    margin-left: 0;
+    align-items: center;
+    position: static;
+    height: 5em;
+  }
+  
+  .footer a {  
+    color: white;
+    text-decoration: none;
+  }
+
+.footer img {
+    margin: 0;
+    height: 3em;
+    width: 3em;
+    margin-left: 1em;
+}
+  
