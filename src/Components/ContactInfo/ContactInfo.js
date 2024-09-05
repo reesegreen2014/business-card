@@ -1,14 +1,22 @@
-import React from 'react'
-import './ContactInfo.css'
+import React from 'react';
+import './ContactInfo.css';
 
-function ContactInfo() {
+function ContactInfo({ handleShowProjects }) {
   return (
-    <div>
-      <button>LinkedIn</button>
-      <button>Phone</button>
-      <button>Email</button>
+    <div className="contact-info">
+      <div className="contact-buttons">
+        <a href="tel:+9723229968">
+          <button>Phone</button>
+        </a>
+        <a href="mailto:reesegreen2014@me.com">
+          <button>Email</button>
+        </a>
+      </div>
+      <div className="projects-button">
+        <button onClick={handleShowProjects}>Projects</button> 
+      </div>
     </div>
-  )
+  );
 }
 
-export default ContactInfo
+export default ContactInfo;

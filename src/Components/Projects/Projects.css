@@ -1,0 +1,28 @@
+.projects {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.projects ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .projects li {
+    margin-bottom: 10px; 
+  }
+  
+  .projects a {
+    color: #0077B5;
+    text-decoration: none; 
+  }
+  
+  .projects a:hover {
+    text-decoration: underline; 
+  }
+
+h3 {
+    text-decoration: underline;
+}
+  

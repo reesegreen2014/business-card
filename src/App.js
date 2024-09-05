@@ -1,10 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
-import About from './Components/About/About';
-import ContactInfo from './Components/ContactInfo/ContactInfo';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import ProfilePicture from './Components/ProfilePicture/ProfilePicture';
+import CardWithProjects from './Components/CardWithProjects/CardWithProjects';
 
 function App() {
   return (
@@ -12,8 +10,7 @@ function App() {
       <div className="card">
       <ProfilePicture />
       <Header />
-      <ContactInfo />
-      <About />
+      <CardWithProjects />
       <Footer />
       </div>
     </main>

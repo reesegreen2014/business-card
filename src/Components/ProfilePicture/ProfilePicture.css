@@ -6,3 +6,11 @@ img {
     margin-bottom: 20px;
   }
   
+  .profile-photo img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .profile-photo img:hover {
+    transform: scale(1.1);
+  }
+  
